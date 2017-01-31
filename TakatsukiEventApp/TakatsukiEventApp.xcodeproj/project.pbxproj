@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6325F08C1DE68D2400C84E69 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325F08B1DE68D2400C84E69 /* CommentViewController.swift */; };
+		63C207DC1DD042D40063C911 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C207DB1DD042D40063C911 /* AppDelegate.swift */; };
+		63C207E11DD042D40063C911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C207DF1DD042D40063C911 /* Main.storyboard */; };
+		63C207E41DD042D40063C911 /* TakatsukiEventApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63C207E21DD042D40063C911 /* TakatsukiEventApp.xcdatamodeld */; };
+		63C207E61DD042D40063C911 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C207E51DD042D40063C911 /* Assets.xcassets */; };
+		63C207E91DD042D40063C911 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C207E71DD042D40063C911 /* LaunchScreen.storyboard */; };
+		63C207F11DD042EE0063C911 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C207F01DD042EE0063C911 /* EventViewController.swift */; };
+		63C207F41DD0431F0063C911 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C207F31DD0431F0063C911 /* MapKit.framework */; };
+		63C207F61DD043260063C911 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C207F51DD043260063C911 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6325F08B1DE68D2400C84E69 /* CommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		63C207D81DD042D40063C911 /* TakatsukiEventApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakatsukiEventApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C207DB1DD042D40063C911 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63C207E01DD042D40063C911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63C207E31DD042D40063C911 /* TakatsukiEventApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakatsukiEventApp.xcdatamodel; sourceTree = "<group>"; };
+		63C207E51DD042D40063C911 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63C207E81DD042D40063C911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63C207EA1DD042D40063C911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C207F01DD042EE0063C911 /* EventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventViewController.swift; path = ../EventViewController.swift; sourceTree = "<group>"; };
+		63C207F31DD0431F0063C911 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63C207F51DD043260063C911 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63C207D51DD042D40063C911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C207F61DD043260063C911 /* CoreLocation.framework in Frameworks */,
+				63C207F41DD0431F0063C911 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63C207CF1DD042D40063C911 = {
+			isa = PBXGroup;
+			children = (
+				63C207DA1DD042D40063C911 /* TakatsukiEventApp */,
+				63C207D91DD042D40063C911 /* Products */,
+				63C207F21DD0431F0063C911 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63C207D91DD042D40063C911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C207D81DD042D40063C911 /* TakatsukiEventApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63C207DA1DD042D40063C911 /* TakatsukiEventApp */ = {
+			isa = PBXGroup;
+			children = (
+				63C207DB1DD042D40063C911 /* AppDelegate.swift */,
+				63C207F01DD042EE0063C911 /* EventViewController.swift */,
+				6325F08B1DE68D2400C84E69 /* CommentViewController.swift */,
+				63C207DF1DD042D40063C911 /* Main.storyboard */,
+				63C207E51DD042D40063C911 /* Assets.xcassets */,
+				63C207E71DD042D40063C911 /* LaunchScreen.storyboard */,
+				63C207EA1DD042D40063C911 /* Info.plist */,
+				63C207E21DD042D40063C911 /* TakatsukiEventApp.xcdatamodeld */,
+			);
+			path = TakatsukiEventApp;
+			sourceTree = "<group>";
+		};
+		63C207F21DD0431F0063C911 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63C207F51DD043260063C911 /* CoreLocation.framework */,
+				63C207F31DD0431F0063C911 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63C207D71DD042D40063C911 /* TakatsukiEventApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63C207ED1DD042D40063C911 /* Build configuration list for PBXNativeTarget "TakatsukiEventApp" */;
+			buildPhases = (
+				63C207D41DD042D40063C911 /* Sources */,
+				63C207D51DD042D40063C911 /* Frameworks */,
+				63C207D61DD042D40063C911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakatsukiEventApp;
+			productName = TakatsukiEventApp;
+			productReference = 63C207D81DD042D40063C911 /* TakatsukiEventApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63C207D01DD042D40063C911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = nwatabou;
+				TargetAttributes = {
+					63C207D71DD042D40063C911 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GXEN49NFED;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 63C207D31DD042D40063C911 /* Build configuration list for PBXProject "TakatsukiEventApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63C207CF1DD042D40063C911;
+			productRefGroup = 63C207D91DD042D40063C911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63C207D71DD042D40063C911 /* TakatsukiEventApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C207D61DD042D40063C911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C207E91DD042D40063C911 /* LaunchScreen.storyboard in Resources */,
+				63C207E61DD042D40063C911 /* Assets.xcassets in Resources */,
+				63C207E11DD042D40063C911 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63C207D41DD042D40063C911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6325F08C1DE68D2400C84E69 /* CommentViewController.swift in Sources */,
+				63C207F11DD042EE0063C911 /* EventViewController.swift in Sources */,
+				63C207E41DD042D40063C911 /* TakatsukiEventApp.xcdatamodeld in Sources */,
+				63C207DC1DD042D40063C911 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63C207DF1DD042D40063C911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C207E01DD042D40063C911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63C207E71DD042D40063C911 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63C207E81DD042D40063C911 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63C207EB1DD042D40063C911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63C207EC1DD042D40063C911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63C207EE1DD042D40063C911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXEN49NFED;
+				INFOPLIST_FILE = TakatsukiEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwatabou.TakatsukiEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		63C207EF1DD042D40063C911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GXEN49NFED;
+				INFOPLIST_FILE = TakatsukiEventApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nwatabou.TakatsukiEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63C207D31DD042D40063C911 /* Build configuration list for PBXProject "TakatsukiEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C207EB1DD042D40063C911 /* Debug */,
+				63C207EC1DD042D40063C911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63C207ED1DD042D40063C911 /* Build configuration list for PBXNativeTarget "TakatsukiEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63C207EE1DD042D40063C911 /* Debug */,
+				63C207EF1DD042D40063C911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		63C207E21DD042D40063C911 /* TakatsukiEventApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				63C207E31DD042D40063C911 /* TakatsukiEventApp.xcdatamodel */,
+			);
+			currentVersion = 63C207E31DD042D40063C911 /* TakatsukiEventApp.xcdatamodel */;
+			path = TakatsukiEventApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 63C207D01DD042D40063C911 /* Project object */;
+}
